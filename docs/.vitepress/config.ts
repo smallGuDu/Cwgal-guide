@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Cwgal',
+  base: '/Cwgal-guide/',
   description: '在网页上用 Galgame 的形式和朋友聊天',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: 'https://img.cdn1.vip/i/6a25242b84915_1780818987.png' }]],
